@@ -28,4 +28,90 @@ public class TableExample {
         this.terminal = new SimpleStringProperty(terminal);
         this.status = new SimpleStringProperty(status);
     }
+    
+        public String getDate() {
+        return date.get();
+    }
+
+    public StringProperty dateProperty() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date.set(date);
+    }
+
+    public String getTime() {
+        return time.get();
+    }
+
+    public StringProperty timeProperty() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time.set(time);
+    }
+
+    public String getFlight() {
+        return flight.get();
+    }
+
+    public StringProperty flightProperty() {
+        return flight;
+    }
+
+    public void setFlight(String flight) {
+        this.flight.set(flight);
+    }
+
+    public String getFrom() {
+        return destination.get();
+    }
+
+    public StringProperty fromProperty() {
+        return destination;
+    }
+
+    public void setFrom(String from) {
+        this.destination.set(from);
+    }
+
+    public String getAirline() {
+        return airline.get();
+    }
+
+    public StringProperty airlineProperty() {
+        return airline;
+    }
+
+    public void setAirline(String airline) {
+        this.airline.set(airline);
+    }
+
+    public String getTerminal() {
+        return terminal.get();
+    }
+
+    public StringProperty terminalProperty() {
+        return terminal;
+    }
+
+    public void setTerminal(String terminal) {
+        this.terminal.set(terminal);
+    }
+
+    public String getStatus() {
+        return status.get();
+    }
+
+    public StringProperty statusProperty() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status.set(status);
+    }
+    
+    
 }
